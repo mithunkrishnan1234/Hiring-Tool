@@ -1,0 +1,149 @@
+body{
+  background: url("./images/new_3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+.sentence{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-stretch: extra-expanded;
+  font-size: 2rem;
+  color:white;
+}
+span{
+  color:wheat;
+}
+.topic{
+  font-family: 'Scope One', serif;
+  font-stretch: extra-expanded;
+  font-size: 6rem;
+  color:white;
+  padding-top: 30px;
+  
+}
+.container_1{
+    display: flex;
+    gap: 250px;
+    padding-bottom: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+
+}
+.btn-circle.btn-xl {
+  width: 200px;
+  height: 200px;
+  padding: 13px 18px;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-align: center;
+  background: none;
+  border-color: white;
+  border-width: 3px;
+  color: white;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+ 
+  background-color: transparent;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.login{
+  padding-top: 50px;
+}
+
+.button-grow {
+  
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-circle.btn-xl:hover {
+  transform: scale(1.3);
+}
+
+
+.btn-circle_dashboard.btn-xl_dashboard {
+
+  width: 300px;
+  height: 300px;
+  padding: 13px 18px;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-align: center;
+  background: none;
+  border-color: rgb(250, 170, 65);
+  border-width: 3px;
+  color: rgb(244, 146, 49);
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+ 
+  background-color: transparent;
+  padding: 0 16px;
+  cursor: grab;
+  transition: all 0.3s ease-in-out;
+}
+.button-grow_dashboard{
+  
+  color: rgb(239, 144, 42);
+  background-color: transparent;
+  border: 2px solid rgb(253, 148, 1);
+  border-radius: 4px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-circle_dashboard.btn-xl_dashboard:hover {
+  transform: scale(1.2);
+}
+
+
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul:hover li:not(:hover) a {
+  opacity: 0.2;
+}
+ul li {
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  cursor: pointer;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.5rem;
+}
+ul li::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  transform: scaleX(0);
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+ul li:hover::after, ul li.active::after {
+  transform: scaleX(1);
+}
+ul li a {
+  position: relative;
+  display: flex;
+  color: rgb(8, 6, 6);
+  font-family: 'Darker Grotesque', sans-serif;
+  text-decoration: none;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+

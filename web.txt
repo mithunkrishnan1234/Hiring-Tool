@@ -1,0 +1,387 @@
+Photo by <a href="https://unsplash.com/@imac666?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maciek Sulkowski</a> on <a href="https://unsplash.com/photos/z-J6t9UJqEg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  font-family: 'Scope One', serif;
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
+
+ 
+
+<div class="list">
+
+		<h3 class="list-title">Tasks to Do</h3>
+
+		<ul class="list-items">
+			<li class="card draggable" draggable="true">Complete mock-up for client website</li>
+			<li class="card draggable" draggable="true">Email mock-up to client for feedback</li>
+			<li class="card draggable" draggable="true">Update personal website header background image</li>
+			<li class="card draggable" draggable="true">Update personal website heading fonts</li>
+			<li class="card draggable" draggable="true">Add google map to personal website</li>
+			<li class="card draggable" draggable="true">Begin draft of CSS Grid article</li>
+		
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<div class="list">
+
+		<h3 class="list-title">Completed Tasks</h3>
+
+		<ul class="list-items">
+			<li class="card draggable" draggable="true">Clear email inbox</li>
+			<li class="card draggable" draggable="true">Finalise requirements for client web design</li>
+			<li class="card draggable" draggable="true">Begin work on mock-up for client website</li>
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<div class="list">
+
+		<h3 class="list-title">Topics/Concepts to Revise</h3>
+
+		<ul class="list-items">
+			<li class="card draggable" draggable="true">HTML Elements</li>
+			<li class="card draggable" draggable="true">HTML Form Validation</li>
+			<li class="card draggable" draggable="true">HTML Structured Data</li>
+			<li class="card draggable" draggable="true">Advanced CSS Selectors</li>
+			<li class="card draggable" draggable="true">CSS Transforms</li>
+			<li class="card draggable" draggable="true">CSS Animations</li>
+			<li class="card draggable" draggable="true">CSS Flexbox</li>
+			<li class="card draggable" draggable="true">CSS Grid</li>
+			
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<div class="list">
+
+		<h3 class="list-title">Topics/Concepts to Learn</h3>
+
+		<ul class="list-items">
+			<li class="card draggable" draggable="true">HTML 5.2 New Features</li>
+			<li class="card draggable" draggable="true">Responsive Images (picture element, srcset/sizes etc.)</li>
+			<li class="card draggable" draggable="true">Serverless</li>
+			<li class="card draggable" draggable="true">Variable Fonts</li>
+			<li class="card draggable" draggable="true">Shadow DOM</li>
+			<li class="card draggable" draggable="true">ES6+</li>
+			<li class="card draggable" draggable="true">JSON & AJAX</li>
+			<li class="card draggable" draggable="true">API's</li>
+			<li class="card draggable" draggable="true">JavaScript Patterns</li>
+			
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<div class="list">
+
+		<h3 class="list-title">Useful Websites for Learning</h3>
+
+		<ul class="list-items">
+			<li class="card draggable" draggable="true">Code Academy</li>
+			<li class="card draggable" draggable="true">CodePen</li>
+			<li class="card draggable" draggable="true">Codrops</li>
+			<li class="card draggable" draggable="true">CSS-Tricks</li>
+			<li class="card draggable" draggable="true">Free Code Camp</li>
+			<li class="card draggable" draggable="true">Khan Academy</li>
+			<li class="card draggable" draggable="true">Lynda</li>
+			<li class="card draggable" draggable="true">YouTube</li>
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<div class="list">
+
+		<h3 class="list-title">Web Dev YouTube Channels</h3>
+
+		<ul class="list-items droppable" droppable="true">
+			<li class="card draggable" draggable="true">Adam Khoury</li>
+			<li class="card draggable" draggable="true">Brad Hussey</li>
+			<li class="card draggable" draggable="true">CSS-Tricks (Chris Coyier)</li>
+			<li class="card draggable" draggable="true">Derek Banas</li>
+			<li class="card draggable" draggable="true">DevTips (Travis Neilson)</li>
+			<li class="card draggable" draggable="true">Free Code Camp</li>
+		
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<div class="list">
+
+		<h3 class="list-title">CodePen Ideas</h3>
+
+		<ul class="list-items">
+			<li class="card draggable" draggable="true">Something cool with CSS Grid</li>
+			<li class="card draggable" draggable="true">Something cool with CSS Flexbox</li>
+			<li class="card draggable" draggable="true">Something cool with CSS animations</li>
+			
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<div class="list">
+
+		<h3 class="list-title">Practise Website Ideas</h3>
+
+		<ul class="list-items">
+			<li class="card draggable" draggable="true">Airsoft/Paintballing Centre</li>
+			<li class="card draggable" draggable="true">Bar/Pub</li>
+			<li class="card draggable" draggable="true">Bicycle Shop/Repair</li>
+			<li class="card draggable" draggable="true">Cafe/Coffee Shop</li>
+			<li class="card draggable" draggable="true">Car Showroom/Garage/Repair/Parts</li>
+			<li class="card draggable" draggable="true">Construction Company</li>
+			<li class="card draggable" draggable="true">Portfolio/CV</li>
+			
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<div class="list">
+
+		<h3 class="list-title">JavaScript Project Ideas</h3>
+
+		<ul class="list-items">
+			<li class="card draggable" draggable="true">Analog Clock</li>
+			<li class="card draggable" draggable="true">Basic Quiz</li>
+			<li class="card draggable" draggable="true">Bill/Cost Splitter</li>
+			<li class="card draggable" draggable="true">Countdown Timer</li>
+			<li class="card draggable" draggable="true">Form Validator</li>
+			<li class="card draggable" draggable="true">Geolocation (Find places near you etc.)</li>
+			<li class="card draggable" draggable="true">Gif Search</li>
+			<li class="card draggable" draggable="true">Note Taking App</li>
+		
+		</ul>
+
+		<button class="add-card-btn btn">Add a card</button>
+
+	</div>
+
+	<button class="add-list-btn btn">Add a list</button>
+
+
+
+.list {
+    flex: 0 0 27rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #e2e4e680;
+    max-height: calc(100vh - 11.8rem);
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+    padding: 10px;
+   
+}
+
+.list:last-of-type {
+    margin-right: 0;
+}
+
+.list-title {
+    font-family: 'Scope One', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+.list-items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    padding: 0 0.6rem 0.5rem;
+    overflow-y: auto;
+}
+
+.list-items::-webkit-scrollbar {
+    width: 1rem;
+    
+}
+
+.list-items::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-right: 0.1rem solid #212222;
+    border-radius: 10px;
+}
+
+.list-items li {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    line-height: 1.3;
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    color: #4d4d4d;
+    border-bottom: 0.1rem solid #ccc;
+    border-radius: 0.3rem;
+    margin-bottom: 0.6rem;
+    word-wrap: break-word;
+    cursor:grab;
+}
+
+.list-items li:last-of-type {
+    margin-bottom: 0;
+}
+
+.list-items li:hover {
+    background-color: #eee;
+}
+
+.add-card-btn {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 1rem;
+    cursor:pointer;
+
+}
+
+.add-card-btn:hover {
+    background-color: #cdd2d4;
+    color: #4d4d4d;
+    text-decoration: brown;
+}
+
+.add-list-btn {
+    flex: 0 0 27rem;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: #9da0a2;
+    color: #e3e6e7;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 150ms;
+    text-align: left;
+}
+
+.add-list-btn:hover {
+    background-color: #005485;
+}
+
+.add-card-btn::after,
+.add-list-btn::after {
+    content: '...';
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+    body {
+        display: grid;
+        grid-template-rows: 4rem 3rem auto;
+        grid-row-gap: 0.8rem;
+    }
+
+    .masthead {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-column-gap: 2rem;
+    }
+
+    .boards-menu {
+        display: grid;
+        grid-template-columns: 9rem 18rem;
+        grid-column-gap: 0.8rem;
+    }
+
+    .user-settings {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 0.8rem;
+    }
+
+    .board-controls {
+        display: grid;
+        grid-auto-flow: column;
+        grid-column-gap: 1rem;
+    }
+
+    .lists-container {
+        display: grid;
+        grid-auto-columns: 27rem;
+        grid-auto-flow: column;
+        grid-column-gap: 1rem;
+    }
+
+    .list {
+        display: grid;
+        grid-template-rows: auto minmax(auto, 1fr) auto;
+    }
+
+    .list-items {
+        display: grid;
+        grid-row-gap: 0.6rem;
+    }
+
+    .logo,
+    .list,
+    .list-items li,
+    .boards-btn,
+    .board-info-bar,
+    .board-controls .btn,
+    .user-settings-btn {
+        margin: 0;
+    }
+}
+.lists-container::-webkit-scrollbar {
+    height: 1rem;
+}
+
+.lists-container::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 0.8rem solid #111111;
+    border-top-width: 0;
+    border-radius: 10px;
+}
+
+.lists-container {
+    display: flex;
+    align-items: start;
+    padding: 0 0.8rem 0.8rem;
+    overflow-x: auto;
+    height: calc(100vh - 8.6rem);
+    border-radius: 13px;
+    text-align: center;
+}
+
+
+let dragged;
+
+document.addEventListener('drag', function(event) {
+  dragged = event.target;
+});
+
+document.addEventListener('dragover', function(event) {
+  event.preventDefault();
+});
+
+document.addEventListener('drop', function(event) {
+  event.preventDefault();
+  if (event.target.classList.contains('list')) {
+    event.target.appendChild(dragged);
+  }
+});
